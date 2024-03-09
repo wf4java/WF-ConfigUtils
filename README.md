@@ -1,4 +1,4 @@
-# WF-Utils:
+# WF-ConfigUtils:
 ## Maven:
 `Java(min): 1.8`
 ```xml
