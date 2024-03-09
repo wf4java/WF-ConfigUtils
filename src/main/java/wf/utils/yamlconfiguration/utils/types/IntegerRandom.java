@@ -1,6 +1,8 @@
 package wf.utils.yamlconfiguration.utils.types;
 
-import wf.utils.java.file.yamlconfiguration.utils.StringSerializable;
+
+
+import wf.utils.yamlconfiguration.utils.StringSerializable;
 
 import java.util.Random;
 

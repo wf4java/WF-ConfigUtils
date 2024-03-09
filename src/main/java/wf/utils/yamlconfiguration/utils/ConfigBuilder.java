@@ -1,8 +1,10 @@
 package wf.utils.yamlconfiguration.utils;
 
 
-import wf.utils.java.file.yamlconfiguration.configuration.Config;
-import wf.utils.java.file.yamlconfiguration.configuration.ConfigDefaultValue;
+
+
+import wf.utils.java.file.utils.ConfigDefaultValue;
+import wf.utils.yamlconfiguration.configuration.Config;
 
 import java.util.Collection;
 

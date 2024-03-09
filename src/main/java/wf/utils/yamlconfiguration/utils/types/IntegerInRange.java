@@ -1,6 +1,7 @@
 package wf.utils.yamlconfiguration.utils.types;
 
-import wf.utils.java.file.yamlconfiguration.utils.StringSerializable;
+
+import wf.utils.yamlconfiguration.utils.StringSerializable;
 
 public class IntegerInRange implements StringSerializable<IntegerInRange> {
 

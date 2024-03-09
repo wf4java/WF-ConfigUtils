@@ -1,7 +1,7 @@
 package wf.utils.yamlconfiguration.utils;
 
 
-import wf.utils.java.file.yamlconfiguration.configuration.Config;
+import wf.utils.yamlconfiguration.configuration.Config;
 
 public interface ConfigSerializable<T> {
 
