@@ -9,12 +9,12 @@
   </dependency>
 ```
 
-## Example
+## Example:
 ```java
 Config config = new Config("config.yml");
 
-config.set("int", 5);
-System.out.println(config.get("int"));
+config.set("example_number", 5);
+System.out.println(config.getInt("example_number"));
 
 config.save();
 ```
