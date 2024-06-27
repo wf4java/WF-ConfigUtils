@@ -37,3 +37,5 @@ build/
 ### Mac OS ###
 .DS_Store
 /src/test/java/Test.java
+/.idea/markdown.xml
+/.idea/workspace.xml
