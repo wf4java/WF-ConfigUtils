@@ -6,7 +6,7 @@ public class ConfigBuilder<T> {
     private boolean autoSave = true;
     private int autoSaveSeconds = 300;
     private boolean autoSaveUnique = true;
-    private ConfigType configType;
+    private ConfigType configType = ConfigType.YAML;
 
 
     public ConfigBuilder<T> setPath(String path) {

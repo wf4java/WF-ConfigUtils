@@ -3,6 +3,8 @@ import wf.utils.config.ConfigBuilder;
 import wf.utils.config.ConfigType;
 
 import java.awt.*;
+import java.util.*;
+import java.util.List;
 
 public class Main {
 
@@ -30,6 +32,7 @@ public class Main {
 
         private Point point = new Point(20, 50);
 
+        private List<String> list = Arrays.asList("s", "b");
     }
 
 

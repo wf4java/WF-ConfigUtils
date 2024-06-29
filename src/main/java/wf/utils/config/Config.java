@@ -51,6 +51,8 @@ public class Config<T> {
             catch (IOException e) { throw new RuntimeException(e); }
         } else {
             try {
+                if(!file.getParentFile().mkdirs())
+                    throw new RuntimeException("Error on create directory to file: " + file.getPath());
                 if(!file.createNewFile())
                     throw new RuntimeException("Error on create file: " + file.getName());
             }
